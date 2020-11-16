@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Login</title>
+</head>
+<style>
+	body
+			{
+                background-color:whitesmoke; 
+            }
+            legend{
+                margin-top: 30px;
+                color: rgb(113, 124, 134);
+            }
+            fieldset{
+                border-collapse: collapse;
+                margin: 30px auto;
+                background-color: rgb(200, 200, 250);
+                font-size: 14px;
+            }
+	
+</style>
+<body>
+	<form>
+		<fieldset>
+		<legend>Biodata Diri</legend>
+		<p>
+			<label>Nama 				: </label>
+			<input type="input" name="Nama 			: " placeholder="Nama">
+		</p>
+		
+		<p>
+			<label>Tempat Lahir 		: </label>
+			<input type="input" name="Tempat Lahir 	: " placeholder="Tempat Lahir">
+		</p>
+		
+		<p>
+			<label>Tanggal Lahir 		: </label>
+			<input type="date" name="Tanggal Lahir 	: " placeholder="Tanggal Lahir">
+		</p>
+		
+		<p>
+			<label>Jenis Kelamin 		: </label>
+			<label><input type="radio" name="Jenis Kelamin" value="Laki-laki">Laki-laki</label>
+			<label><input type="radio" name="Jenis Kelamin" value="Perempuan">Perempuan</label>
+		</p>
+		
+		<p>
+			<label>Pendidikan Terakhir 	: </label>
+			<select name="Pendidikan Terakhir">
+				<option value="SMK Negeri 1 Medan">SMK Negeri 1 Medan</option>
+				<option value="SMK Bintang Timur Siantar">SMK Bintang Timur Siantar</option>
+				<option value="SMK Grafika Bina Media Medan">SMK Grafika Bina Media Medan</option>
+			</select>
+		</p>
+		
+		<p>
+			<label>Pendidikan Saat Ini 	: </label>
+			<select name="Pendidikan Saat Ini">
+				<option value="ITB">ITB</option>
+				<option value="UB">UB</option>
+				<option value="Udayana">Udayana</option>
+				<option value="UGM">UGM</option>
+				<option value="Unair">Unair</option>
+				<option value="UNPAD">UNPAD</option>
+			</select>
+		</p>
+		
+		<p>
+			<label>No Telp/HP 			: </label>
+			<input type="number" name="No Telp/HP : " placeholder="No Telp/HP">
+		</p>
+		
+		<p>
+			<label>Alamat 				: </label>
+			<textarea name="Alamat" placeholder="Alamat"></textarea>
+		</p>
+		
+		<p>
+			<input type="submit" name="submit" value="Submit">
+		</p>
+	
+	</form>
+	</fieldset>
+
+</body>
+</html>
